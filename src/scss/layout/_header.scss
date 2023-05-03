@@ -1,0 +1,62 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.header {
+  background-color: v.$gris;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999999;
+  &__contenido {
+    @include m.contenedor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem 0;
+    @include m.tablet {
+      flex-direction: row;
+    }
+  }
+  &__logo {
+    color: v.$negro;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    @include m.tablet {
+      margin-bottom: none;
+    }
+  }
+
+  &__nav {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+    a {
+      color: v.$azul;
+      font-weight: bold;
+    }
+    @include m.tablet {
+      flex-direction: row;
+      padding: 0;
+    }
+  }
+
+  &__contacto {
+    @include m.boton(v.$azul-oscuro, v.$blanco);
+    border-radius: 1.5rem;
+    color: v.$blanco !important;
+  }
+
+  &__span{
+    color: v.$azul;
+  }
+
+
+}
