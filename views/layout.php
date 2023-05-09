@@ -27,6 +27,7 @@
             </nav>
         </div>
     </header>
+    
     <?php echo $contenido; ?>
     <a class="icono-whats" href="https://wa.me/593983513154" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 
@@ -64,7 +65,7 @@
                 </div>
             </div>
             <div class="footer__estudio">
-                <h3 class="footer__h3">Estudio de diseño web</h3>
+                <h3 class="footer__h3">Desarollo Web</h3>
                 <a href="/" class="footer__logo">Web<span class="footer__span">Works</span></a>
             </div>
 
