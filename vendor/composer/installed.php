@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'mateocrespo/web',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '7f6a54df5bf66b0c095b8e84b3e90ec9e7a3f6da',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'graham-campbell/result-type' => array(
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'mateocrespo/web' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '7f6a54df5bf66b0c095b8e84b3e90ec9e7a3f6da',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
